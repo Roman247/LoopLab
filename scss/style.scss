@@ -1,0 +1,81 @@
+$body-color: #333;
+$font-color: #fff;
+$primary-color: #292b2c;
+$icon-font-size: 30px;
+
+.section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body{
+  background-color: $body-color;
+  color: $font-color;
+}
+
+//####Start Navbar####//
+.navbar{
+  border-bottom: 3px solid #008ed6;
+  background: $primary-color;
+  opacity: 0.7;
+}
+
+//#### Start Home Section####//
+#home-section{
+  background: url('../img/home.jpg') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .dark-overlay{
+    background: rgba(0,0,0,0.8);
+    min-height: 700px;
+  }
+
+  .fa{
+    background: #fff;
+    color:$primary-color;
+    padding: 4px;
+    font-size: $icon-font-size;
+    border-radius: 5px;
+  }
+  .home-inner{
+      padding-top: 100px;
+      padding-bottom: 100px;
+  }
+}
+//#### End Home Section####//
+
+//!-- Start Explorer Section -->
+ #explore-section{
+     //background: #fff;
+
+.fa{
+  background: #333;
+  color: #fff;
+  padding: 4px;
+  font-size: $icon-font-size;
+  border-radius: 5px;
+  }
+  .explore{
+    color:dark;
+  }
+}
+//--    End Explorer Section---->
+
+//----Start Create-Section----//
+#create-body-section{
+    .create-body-header h5{
+          font-size: 30px;
+      }
+}
+//----End  Create-Section----//
+
+
+
+
+@media (max-width: 767px){
+  #home-section h1{
+    font-size: 38px;
+  }
+}
